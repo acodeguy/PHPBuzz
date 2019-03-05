@@ -16,5 +16,11 @@
       $this->assertEquals($result, 'buzz');
     }
 
+    public function testReturnsFizzBuzzWhenPassed15() {
+      $fizzBuzz = new FizzBuzz;
+      $result = $fizzBuzz->calculate(15);
+      $this->assertEquals($result, 'fizzbuzz');
+    }
+
   }
 ?>
