@@ -3,7 +3,11 @@
   class FizzBuzz {
     
     public function calculate($number) {
-      return 'fizz';
+      if ($number % 3 == 0) {
+        return 'fizz';
+        } else {
+          return $number;
+        } 
     }
   }
 
