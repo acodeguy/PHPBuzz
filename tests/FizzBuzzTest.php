@@ -22,5 +22,11 @@
       $this->assertEquals($result, 'fizzbuzz');
     }
 
+    public function testReturns7WhenPassed7() {
+      $fizzBuzz = new FizzBuzz;
+      $result = $fizzBuzz->calculate(7);
+      $this->assertEquals($result, 7);
+    }
+
   }
 ?>
